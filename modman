@@ -1,0 +1,4 @@
+src/app/code/local/Loewenstark/AddressChange                                    app/code/local/Loewenstark/AddressChange  
+src/app/etc/modules/Loewenstark_AddressChange.xml                               app/etc/modules/Loewenstark_AddressChange.xml     
+src/app/locale/de_DE/template/email/report/addresschange_result.html            app/locale/de_DE/template/email/report/addresschange_result.html
+src/app/locale/de_DE/Loewenstark_AddressChange.csv                              app/locale/de_DE/Loewenstark_AddressChange.csv

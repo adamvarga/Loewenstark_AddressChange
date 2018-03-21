@@ -1,0 +1,43 @@
+<!--@subject {{config path="general/store_information/name"}}:LS_AddressChange.@-->
+<div style="font:14px/1em Verdana, Arial, Helvetica, sans-serif;">
+  <table cellspacing="0" cellpadding="0" border="0" width="98%" style="margin-top:10px; font:11px/1.35em Verdana, Arial, Helvetica, sans-serif; margin-bottom:10px;">
+    <tr>
+      <td align="center" valign="top">
+        <!-- [ header starts here] -->
+          <table cellspacing="0" cellpadding="0" border="0" width="650">
+            <tr>
+              <td valign="top">
+                <p>
+                  <a href="{{store url=''}}" style="color:#1E7EC8;"><img src="{{skin url='images/logo_email.gif' _area='frontend'}}" alt="Magento" border="0"/></a>
+                </p>
+              </td>
+            </tr>
+          </table>
+          <!-- [ middle starts here] -->
+          <table cellspacing="0" cellpadding="0" border="0" width="650">
+            <tr>
+              <td valign="top">
+                <p>
+                <strong>Sehr geehrte(r) {{var customer_name}}</strong>,<br/>
+                </p>
+                <p>{{var msg}}</p>
+                <p>Die originale Adresse:</p>
+                <ul>
+                    <li><span>Kunde ID: </span>{{var customer_id}}</li>
+                    <li><span>Vorname: </span>{{var firstname}}</li>
+                    <li><span>Nachname: </span>{{var lastname}}</li>
+                    <li><span>Firma: </span>{{var company}}</li>
+                    <li><span>Telefon: </span>{{var telephone}}</li>
+                    <li><span>Fax: </span>{{var fax}}</li>
+                    <li><span>Straße: </span>{{var street}}</li>
+                    <li><span>Stadt: </span>{{var city}}</li>
+                    <li><span>PLZ: </span>{{var postcode}}</li>
+                    <li><span>Land: </span>{{var country}}</li>
+                </ul>
+              </td>
+            </tr>
+          </table>
+      </td>
+    </tr>
+  </table>
+</div>
